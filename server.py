@@ -26,7 +26,7 @@ def welcome():
     
 @app.route('/download-apk')
 def download_apk():
-	return send_from_directory('static', 'arduinodroid-6-3-1.apk', as_attachment=True)
+	return send_from_directory('static', 'ArduinoDroid.apk', as_attachment=True)
 @app.route('/download-codes')
 def download_codes():	
     return send_from_directory('static', 'ide.zip', as_attachment=True)	
